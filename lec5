@@ -61,6 +61,7 @@ Status codes are three-digit numbers that act as a universal language to indicat
     *   403 Forbidden: Authenticated, but lacks necessary permissions.
     *   404 Not Found: Incorrect URL or deleted resource.
     *   405 Method Not Allowed: Using the wrong method for a route.
+    *  408 for req timeout by client
     *   409 Conflict: Business logic violation (e.g., duplicate username).
     *   429 Too Many Requests: Client has hit rate limits.
 *   5xx (Server Errors):
